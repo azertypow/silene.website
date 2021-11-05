@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://azertypow.github.io/silene.website/precache-manifest.983229283106fc1541fa297c4076a90c.js"
+  "https://azertypow.github.io/silene.website/precache-manifest.e45bda365a15f345653792d96d5c667d.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "silene"});

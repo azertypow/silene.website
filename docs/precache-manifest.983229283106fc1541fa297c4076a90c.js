@@ -4,8 +4,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://azertypow.github.io/silene.website/css/about.8b5fefc0.css"
   },
   {
-    "revision": "9aaedbacd0f1f90d84a4",
-    "url": "https://azertypow.github.io/silene.website/css/app.e153a4b0.css"
+    "revision": "133ffe02d1519c887211",
+    "url": "https://azertypow.github.io/silene.website/css/app.c00ca6c0.css"
   },
   {
     "revision": "6a59fec00b906fabb100655cdf2306bb",
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://azertypow.github.io/silene.website/img/silene-illu--3.071540fe.jpg"
   },
   {
-    "revision": "d7645c0bc0681fe08e500f04f9eb3ea8",
+    "revision": "dbd7a7263d21491ced6a13869ab03ee4",
     "url": "https://azertypow.github.io/silene.website/index.html"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://azertypow.github.io/silene.website/js/about.5f9e59a5.js"
   },
   {
-    "revision": "9aaedbacd0f1f90d84a4",
-    "url": "https://azertypow.github.io/silene.website/js/app.0cd24469.js"
+    "revision": "133ffe02d1519c887211",
+    "url": "https://azertypow.github.io/silene.website/js/app.11177084.js"
   },
   {
     "revision": "89d13af7fe7ffc589875",

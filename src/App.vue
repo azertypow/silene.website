@@ -52,6 +52,10 @@
     margin-left: $gutter;
     color: inherit;
     text-decoration: none;
+
+    .router-link-exact-active {
+      text-decoration: underline;
+    }
   }
 }
 </style>

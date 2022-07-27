@@ -22,16 +22,15 @@ export default defineComponent({
   bottom: 0;
   left: 0;
   width: 100%;
-  box-shadow: $site-color 0 0 20px 10px;
-  background: $site-color;
+  box-shadow: var(--site-color) 0 0 20px 10px;
+  background: var(--site-color);
 }
 
 .v-footer-app__logo {
   width: 60px;
-  mix-blend-mode: multiply;
   display: block;
-  padding-left: $gutter;
-  padding-top: $gutter / 2;
-  padding-bottom: $gutter / 2;
+  padding-left:   var(--gutter);
+  padding-top:    calc( var(--gutter) / 2 );
+  padding-bottom: calc( var(--gutter) / 2 );
 }
 </style>

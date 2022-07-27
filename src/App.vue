@@ -1,7 +1,7 @@
 <template>
   <div class="v-app">
     <header class="v-app-header">
-      <div class="v-app-header__logo" >Silène</div>
+      <div class="v-app-header__logo" ><router-link to="/">Silène</router-link></div>
 
       <nav class="v-app-header__nav">
         <router-link to="./" >nous</router-link>
@@ -11,7 +11,9 @@
     </header>
 
     <main class="v-app-main">
-      <router-view/>
+      <Transition name="fade">
+        <router-view/>
+      </Transition>
     </main>
 
     <footer-app/>
@@ -23,33 +25,36 @@
 @import "style/main";
 
 .v-app {
-  padding: 60px $gutter;
+  padding: 60px var(--gutter);
 }
 
 .v-app-header {
-  background-color: $site-color;
+  background-color: var(--site-color);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   box-sizing: border-box;
-  padding: $gutter;
+  padding: var(--gutter);
   z-index: 100000;
   display: flex;
   justify-content: space-between;
   //border-bottom: solid 2px;
-  box-shadow: $site-color 0 0 20px 10px;
+  box-shadow: var(--site-color) 0 0 20px 10px;
 }
 
 .v-app-header__logo {
   font-weight: bold;
+  > * {
+    text-decoration: none;
+  }
 }
 
 .v-app-header__nav {
   margin-right: 0;
 
   > * {
-    margin-left: $gutter;
+    margin-left: var(--gutter);
     color: inherit;
     text-decoration: none;
 
@@ -57,6 +62,16 @@
       text-decoration: underline;
     }
   }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
 <script>

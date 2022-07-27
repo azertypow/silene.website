@@ -1,10 +1,10 @@
 <template>
   <div class="v-ended-page-info">
-    <h6>*Le contenu de ce site est inclusif et indépendant de toute assignation et/ou identité de genre. L’usage de la forme
+    <h6>Le contenu de ce site est inclusif et indépendant de toute assignation et/ou identité de genre. L’usage de la forme
       contractée est privilégiée quand elle est possible, sinon, le féminin est employé comme genre neutre/générique
       pour but d’alléger le texte et d’en faciliter la lecture, sans aucune intention discriminatoire.</h6>
 
-    <h6>Illustrations de Benito (temporaire, car il faudrait d'autres images)</h6>
+    <h6>Illustrations de Benito (<a target="_blank" href="https://www.instagram.com/benito_do/" >@benito_do</a>)</h6>
   </div>
 </template>
 

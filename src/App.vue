@@ -64,6 +64,10 @@
   }
 }
 
+.router-link-active.router-link-exact-active {
+  border-bottom: solid 1px;
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s ease;
@@ -74,6 +78,7 @@
   opacity: 0;
 }
 </style>
+
 <script lang="ts">
 import FooterApp from "@/components/FooterApp.vue"
 export default {

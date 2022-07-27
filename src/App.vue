@@ -74,7 +74,7 @@
   opacity: 0;
 }
 </style>
-<script>
+<script lang="ts">
 import FooterApp from "@/components/FooterApp.vue"
 export default {
   components: {FooterApp},

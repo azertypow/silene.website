@@ -10,7 +10,7 @@
       <h2>Pour devenir membre</h2>
 
       <p>Nous sommes à la recherche de nouvelles membres, si vous souhaitez plus d’informations et/ou que le projet vous
-        intéresse, vous pouvez nous contacter par email à l’adresse suivante : <a href="mailto:silène.logement@gmail.com">silène.logement@gmail.com</a>.</p>
+        intéresse, vous pouvez nous contacter par email à l’adresse suivante : <a href="mailto:silene.logement@gmail.com">silene.logement@gmail.com</a>.</p>
 
 
       <h2>Nous proposer un logement</h2>
